@@ -10,3 +10,8 @@ button.onclick = function () {
 
 // information on events found on an element can be found in the DOM Web API.
 // https://developer.mozilla.org/en-US/docs/Web/API/Element
+
+const btn = document.querySelector('#v3');
+btn.addEventListener('click', function () {
+    alert('Clicked!!!');
+});
